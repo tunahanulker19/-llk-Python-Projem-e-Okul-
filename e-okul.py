@@ -49,23 +49,5 @@ while True:
         print("Çıkış yapılıyor...")
         break
 
-    elif işlem == 19:
-        giris_metni = "\nBir japon atasözü der ki..."
-        for harf in giris_metni:
-            print(harf, end="", flush=True)
-            time.sleep(0.06)
-
-        time.sleep(2)
-        print()
-
-        bildirge_metni = "\nLa bu Honda Civic ne güzel arabaymış la göbel yeni kasa çok güzel olmuş heri \n-Hideki Tojo ve İmparator Jimmu Ahiret Ortak Bildirgesi"
-        for harf in bildirge_metni:
-            print(harf, end="", flush=True)
-            time.sleep(0.05)  
-
-        print("\n")
-         
-        break
-
     else:
-        print("Geçersiz işlem. Lütfen 1-4 arasında bir sayı girin.")
+        print("\nGeçersiz işlem. Lütfen 1-4 arasında bir sayı girin.")
